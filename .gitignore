@@ -1,0 +1,11 @@
+node_modules/
+dist/
+*.tsbuildinfo
+__pycache__/
+*.py[cod]
+.Python
+.venv/
+venv/
+packages/python/dist/
+*.egg-info/
+.eggs/

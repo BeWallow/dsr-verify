@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "dsr-verify"
+version = "1.0.0"
+description = "Verification library for DSR/1.0 production incident receipts"
+readme = "README.md"
+license = { text = "MIT" }
+requires-python = ">=3.8"
+keywords = ["dsr", "deja", "receipt", "soc2", "audit", "verify"]
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "License :: OSI Approved :: MIT License",
+  "Operating System :: OS Independent",
+  "Topic :: Security",
+  "Topic :: Software Development :: Libraries",
+]
+
+[project.urls]
+Homepage = "https://standard.deja.dev/v1"
+Repository = "https://github.com/BeWallow/dsr-verify"
+Documentation = "https://standard.deja.dev/v1"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["dsr_verify*"]
