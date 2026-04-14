@@ -9,3 +9,6 @@ venv/
 packages/python/dist/
 *.egg-info/
 .eggs/
+temp_auto_push.bat
+temp_interactive_push.bat
+.gitignore
